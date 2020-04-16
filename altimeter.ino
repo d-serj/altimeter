@@ -360,18 +360,6 @@ void sleepScreen(void)
 
 	if (nowMillis - lastMillis <= screenWork)
 	{
-		/*
-		if (needOff)
-		{
-			ssd1306_displayOff();
-			needOff = 0;
-		}
-		else
-		{
-			ssd1306_displayOn();
-			needOff = 1;
-		}
-		*/
 		ssd1306_displayOn();
 	}
 	
